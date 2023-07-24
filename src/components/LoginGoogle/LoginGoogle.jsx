@@ -29,17 +29,17 @@ const LoginGoogle = () => {
           <Container >
             <Row className="leftcontent">
               <Col className='text-center'>
-              <h1 className="mb-4">Online Hotel Booking</h1>
+              <h1>Online Hotel Booking</h1>
               </Col>
             </Row>
-            <Row className='mt-9'>
+            <Row className='form mt-4'>
               <Col className="text-center">
                 <h2>Sign in</h2>
                 </Col>
             </Row>
-            <Row className='mt-2'>
+            <Row className='form mt-4'>
               <Col className="text-center">
-                <Button variant="primary" size="lg" className="google-button" onClick={handleClick}>
+                <Button className="google-button" onClick={handleClick}>
                   <img className="google-icon" src='https://static.vecteezy.com/system/resources/previews/012/871/371/original/google-search-icon-google-product-illustration-free-png.png'/>
                  Sign in with Google
               </Button>
