@@ -89,8 +89,8 @@ const LoginGoogle = () => {
    
             <Row className='form mt-4'>
               <Col className="text-center">
-                <Typography style={{fontWeight:550,margin:'20px 220px'}}>or</Typography>
-                <Button style={{backgroundColor:'white',color:'black',fontWeight:550,margin:'0px 110px'}} className="google-button" onClick={handleClick}>
+                <Typography style={{fontWeight:550,margin:'20px 220px',marginLeft:'250px'}}>or</Typography>
+                <Button style={{backgroundColor:'white',color:'black',fontWeight:550,margin:'0px 110px',marginLeft:'150px'}} className="google-button" onClick={handleClick}>
                   <img className="google-icon" src='https://static.vecteezy.com/system/resources/previews/012/871/371/original/google-search-icon-google-product-illustration-free-png.png'/>
                  Sign in with Google
               </Button>
